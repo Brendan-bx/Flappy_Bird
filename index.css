@@ -1,0 +1,13 @@
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.moving-image {
+  animation: moveImage 5s linear infinite;
+}
